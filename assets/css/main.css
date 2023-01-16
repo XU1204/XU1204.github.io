@@ -1772,7 +1772,7 @@ input, select, textarea {
 
 		.image.featured {
 			display: block;
-			width: 100%;
+			width: 40%;
 			margin: 0 0 2em 0;
 		}
 
@@ -2631,3 +2631,15 @@ input, select, textarea {
 				}
 
 	}
+
+
+/* added later */
+#about-me-content {
+	display: flex;
+	align-items: center;
+}
+#about-me-content>p {
+	width: 60%;
+	text-align:left;
+	margin-left: 2rem;
+}
